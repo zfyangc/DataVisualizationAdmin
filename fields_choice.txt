@@ -1,0 +1,24 @@
+    website = (
+        ('nhandan.vn', '人民报网'),
+        ('vov.vn', '越南之声在线网'),
+        ('dangcongsan.vn', '越共电子报网'),
+        ('vnexpress.net', '越南快讯'),
+        ('tuoitre.vn', '年轻人在线网'),
+        ('thanhnien.vn', '青年在线'),
+        ('laodong.vn', '劳动报网'),
+        ('vietnamnet.vn', '越南网'),
+        ('biengioilanhtho.gov.vn', '边界领土网'),
+        ('www.qdnd.vn', '人民军队'),
+        ('baohaiquanvietnam.vn', '越南海军'),
+        ('chinhphu.vn', '政府网'),
+        ('www.vietnamplus.vn', '越通社信息网'),
+        ('nghiencuubiendong.vn', '东海研究网'),
+        ('biendong.net', '东海网'),
+        ('huangsa.org', '黄沙'),
+    )
+
+    level = (
+        (0, '重要'),
+        (1, '一般'),
+        (2, '次要'),
+    )
