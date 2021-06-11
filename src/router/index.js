@@ -72,7 +72,7 @@ export const constantRouterMap = [
         path: 'dashboard',
         component: () => import('@/views/example/arlist'),
         name: 'Dashboard',
-        meta: { title: '新闻列表', icon: 'dashboard', noCache: true }
+        meta: { title: '新闻列表', icon: 'dashboard'}
       },
       // {
       //   path: 'arlistdetail/:md5',
@@ -97,7 +97,7 @@ export const asyncRouterMap = [
   {
     path: '/example',
     component: Layout,
-    redirect: '/example/list',
+    redirect: '/',
     name: 'Example',
     hidden:true,
     meta: {
